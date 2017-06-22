@@ -1,0 +1,41 @@
+# Arduino 课后作业-1 LED
+###  要求：用5个LED让它们同时亮起，然后逐个熄灭，再逐个亮起，最后同时熄灭。
+-------------------------
+
+**程序**
+void setup() {
+  // put your setup code here, to run once:
+  for(int i=4;i<=12;i=i+2)
+{  pinMode(i,OUTPUT);
+} 
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for(int x=4;x<=12;x=x+2)
+{  digitalWrite(x,HIGH);
+}
+delay(1000);
+
+   for(int x=4;x<=12;x=x+2)
+{  digitalWrite(x,LOW);
+   delay(1000);
+}
+
+   for(int x=4;x<=12;x=x+2)
+{  digitalWrite(x,HIGH);
+   delay(1000);
+}
+
+  for(int x=4;x<=12;x=x+2)
+{  digitalWrite(x,LOW);
+}
+delay(1000);
+}
+
+**截图**
+
+![1]( https://github.com/c1cccc/pic/blob/master/IMG_20170621_202653.jpg)
+
+-------------------------
+陈子楠 516202910001 2017-6-21
