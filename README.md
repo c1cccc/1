@@ -4,7 +4,7 @@
 
 **截图**
 
-![1]（https://github.com/c1cccc/pic/blob/master/1.png）
+![1](https://github.com/c1cccc/pic/blob/master/1.png)
 
 
 **说明**
